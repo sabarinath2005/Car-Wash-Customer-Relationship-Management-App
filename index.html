@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Car Wash</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="add.html">Add Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="viewall.html">View all Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="delete.html">Delete Customer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+
+
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 cod-lg-12 cod-xl-12 cod-xxl-12">
+                <center>
+                    </h1>
+                    <H1 style="color:rgb(14, 15, 17);"> <B>Speed Car Wash</B> Services </H1>
+                    <h3 style="color:rgb(0, 166, 255);">LOVE YOUR CAR, WE MAKE IT MORE ADORABLE.</h3>
+                </center>
+                <br>
+                <div class="row g-3">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="data:image/jpeg;base64,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" " class="
+                                    d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Speed Car Wash for Clean Sparkling Shinny Clean Cars in hassle free way...</h5>
+                                    <p> Speed Car Wash is a brand which is literally going to change the way people
+                                        think about car cleaning. It is a unique mechanized car cleaning concept where
+                                        cars are getting pampered by the latest equipments including high pressure
+                                        cleaning machines, spray injection and extraction machines, high powered vacuum
+                                        cleaners, steam cleaners and so on.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.pinimg.com/736x/ce/ef/fc/ceeffcf975bb9e07a3e7d17743d1f5da.jpg"
+                                    class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Hand Car Wash - Professional Detail Center - Ceramic Coatings</h5>
+                                    <p>Open 7 days a week!
+                                        Monday through Saturday
+
+                                        8:30am - 6:30pm
+
+
+
+                                        Sunday
+
+                                        10am - 5pm</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0srUu9I7bwwdwSf1EW8YkzPCUDrNQ1edVYesaAWVH1Q&s"
+                                    class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>The Best Car Wash</h5>
+                                    <p>Provide both exterior and interior cleaning services</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+
+                    <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card">
+                            <img src="https://www.speedcarwash.com/img/s1.png" class=" card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SCW WASH<ING/h5>
+                                <p class="card-text">Speed Car Wash is offering a wide range of washing services to the
+                                    car owners including the top wash to entire internal detailing or whether a paint
+                                    protection treatment...</p>
+                                <a href="#" class="btn btn-primary">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card">
+                            <img src="https://www.speedcarwash.com/img/s2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SCW QUICK SERVICE</h5>
+                                <p class="card-text">As a Speed Service Point (SSP), we pledge to provide high quality
+                                    automotive maintenance services at a fair price using only the best available parts
+                                    and labor for the job...
+                                </p>
+                                <a href="#" class="btn btn-primary">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card">
+                            <img src="https://www.speedcarwash.com/img/s4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SCW DETAILING</h5>
+                                <p class="card-text">Speed Car Wash primary motive to serve our customers with
+                                    professional car detailing service with internationally approved standards to
+                                    deliver impeccable quality...
+                                </p>
+                                <a href="#" class="btn btn-primary">Know More</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="card">
+                            <img src="https://www.speedcarwash.com/img/s3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SCW WRAPPING</h5>
+                                <p class="card-text">Our network of trained SCW Vehicle Wrappers can help you create
+                                    impactful vehicle branding to simply cater for your colour change and car
+                                    personalisation needs...</p>
+                                <a href="#" class="btn btn-primary">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
